@@ -41,7 +41,7 @@
 		30B0BAFC1B8D9AD4004B9476 /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B0BABF1B8D8E22004B9476 /* FSCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30B0BB011B8D9B6C004B9476 /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B0BAC11B8D8E22004B9476 /* FSCalendarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30B0BB021B8D9B6C004B9476 /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B0BAC31B8D8E22004B9476 /* FSCalendarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30B0BB031B8D9B6D004B9476 /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B0BAC51B8D8E22004B9476 /* FSCalendarDynamicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30B0BB031B8D9B6D004B9476 /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B0BAC51B8D8E22004B9476 /* FSCalendarDynamicHeader.h */; };
 		30B0BB041B8D9B6D004B9476 /* FSCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B0BAC61B8D8E22004B9476 /* FSCalendarHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30CEF9001C950C1F008EAFB1 /* FSCalendarTransitionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 30CEF8FE1C950C1F008EAFB1 /* FSCalendarTransitionCoordinator.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		30CEF9011C950C1F008EAFB1 /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CEF8FF1C950C1F008EAFB1 /* FSCalendarTransitionCoordinator.m */; };
@@ -464,7 +464,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				50F2ADE8216D954A00CC481F /* FSCalendarSeparatorDecorationView.h in Headers */,
-				30B0BB031B8D9B6D004B9476 /* FSCalendarDynamicHeader.h in Headers */,
 				30B0BAFC1B8D9AD4004B9476 /* FSCalendar.h in Headers */,
 				30B0BB011B8D9B6C004B9476 /* FSCalendarAppearance.h in Headers */,
 				3092253A1B905C4300123031 /* FSCalendarConstants.h in Headers */,
@@ -479,6 +478,7 @@
 				30F4C90F1E07C12B00D2EC4D /* FSCalendarDelegationFactory.h in Headers */,
 				30DBE3C41DC641AD005A22B7 /* FSCalendarCalculator.h in Headers */,
 				30CEF9001C950C1F008EAFB1 /* FSCalendarTransitionCoordinator.h in Headers */,
+				30B0BB031B8D9B6D004B9476 /* FSCalendarDynamicHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

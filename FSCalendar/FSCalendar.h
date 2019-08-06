@@ -21,7 +21,6 @@
 #import "FSCalendarCell.h"
 #import "FSCalendarWeekdayView.h"
 #import "FSCalendarHeaderView.h"
-#import "FSCalendarDynamicHeader.h"
 
 //! Project version number for FSCalendar.
 FOUNDATION_EXPORT double FSCalendarVersionNumber;
@@ -402,6 +401,8 @@ IB_DESIGNABLE
  The dates representing the selected dates. (read-only)
  */
 @property (readonly, nonatomic) NSArray<NSDate *> *selectedDates;
+
+@property (readonly, nonatomic) NSCalendar *gregorian;
 
 /**
  Reload the dates and appearance of the calendar.
